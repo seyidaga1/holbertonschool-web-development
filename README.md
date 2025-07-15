@@ -86,8 +86,3 @@ Right-click → Open with → Chrome/Firefox
 
 ✅ Project completed: **HTML structure is done**  
 🔜 Future plans: add **CSS styling** and **responsive design**
-
-
-
-
-
