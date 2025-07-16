@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.main-part {
+    background-image: url("./static/background.png");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 1093px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    padding: 2% 5%;
+    color: white;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 167px;
+    height: 29px;
+}
+
+.navbar-items {
+    display: flex;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    gap: 50px;
+    padding-right: 2%;
+}
+
+
+.navbar-item {
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 5%;
+    font-family: "Source Sans Pro";
+
+}
+
+.item-1 {
+    margin-left: 20%;
+}
+
+.text {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-text {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;     
+  text-align: center;
+  color: white;
+}
+
+.hero-text h1 {
+  font-size: 120px;
+  font-weight: bold;
+  font-family: "Source Sans Pro";
+}
+
+.hero-text p {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.hero-text button {
+  padding: 12px 24px;
+  background-color: #c271ff;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.images {
+  display: flex;
+  justify-content: center; /* ortalayıb düzür */
+  gap: 40px; /* şəkillər arasında boşluq */
+  margin-top: 40px;
+}
+
+.images div {
+  text-align: center;
+  color: white; /* əgər arxa fon tünddürsə */
+}
+
+.text-1 {
+  text-align: center;
+  color: white; /* varsa arxa fon tünddürsə */
+  margin-top: 40px; /* istəyə görə məsafə */
+
+}
